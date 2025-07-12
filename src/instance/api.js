@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'http://localhost:6780'
+    baseURL: 'https://deploy-api-anime-v2.onrender.com'
 })
 
 instance.interceptors.request.use((config) => {
